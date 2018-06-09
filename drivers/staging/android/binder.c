@@ -2098,7 +2098,6 @@ static void binder_send_failed_reply(struct binder_transaction *t,
 			      t->debug_id);
 	}
 }
-
 /**
  * binder_cleanup_transaction() - cleans up undelivered transaction
  * @t:		transaction that needs to be cleaned up
